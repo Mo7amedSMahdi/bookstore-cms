@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Math Magicians
 
-## Available Scripts
+About
+The Bookstore is a simple website created with react that allows you to:
 
-In the project directory, you can run:
+- Display a list of books.
+- Add a book.
+- Remove a selected book.
 
-### `npm start`
+## Screen Shots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> Coming Soon.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With &hearts;
 
-### `npm test`
+- HTML
+- CSS
+- JavaScript
+- ReactJS.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Live Demo
 
-### `npm run build`
+- [live](https://mo7amedsmahdi.github.io/bookstore-cms/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running follow these setup steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Setup**
 
-### `npm run eject`
+- Open terminal and clone the project: `git clone git@github.com:Mo7amedSMahdi/bookstore-cms`
+- cd into the directory `bookstore-cms`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Prerequisites**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- You need to have `node.js` installed in your system
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Install**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- On your terminal run :
 
-## Learn More
+```sh
+  npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- In case you run into any errors please raise an [issue](https://github.com/Mo7amedSMahdi/bookstore-cms/issues).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Usage**
 
-### Code Splitting
+- To run the application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+npm run start
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Authors
 
-### Making a Progressive Web App
+👤 **Mohammed Salah**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- GitHub: [@Mo7amedSMahdi](https://github.com/Mo7amedSMahdi)
+- Twitter: [@devMo7amed](https://twitter.com/devMo7amed)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammed-mahdi-b20340162/)
 
-### Advanced Configuration
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions, issues, and feature requests are welcome!
 
-### Deployment
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Show your support
 
-### `npm run build` fails to minify
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Microverse program
+- My standup team
+- Microverse team
+- My family's support
