@@ -1,0 +1,11 @@
+/* stylesheet */
+.header {
+  padding: 1.813rem 6.25rem;
+
+  --gap: 2.938rem;
+}
+
+nav {
+  justify-content: space-between !important;
+  flex: 1 0 0;
+}
