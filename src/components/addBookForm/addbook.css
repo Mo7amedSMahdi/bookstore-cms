@@ -1,0 +1,15 @@
+.add-book-form {
+  --gap: 0.8rem;
+}
+
+.input:nth-child(1) {
+  flex: 2 0 0;
+}
+
+.input:nth-child(2) {
+  flex: 1 0 0;
+}
+
+.input:nth-child(3) {
+  flex: 1 0 0;
+}

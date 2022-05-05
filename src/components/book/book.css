@@ -1,0 +1,85 @@
+.book {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.book-details {
+  flex: 2 0 0;
+  justify-content: center;
+  align-items: flex-start;
+
+  --gap: 0.8rem;
+}
+
+.book-status {
+  flex: 1 0 0;
+  justify-content: center;
+  align-items: center;
+
+  --gap: 0.8rem;
+}
+
+.book-chapter {
+  flex: 1 0 0;
+  justify-content: center;
+  align-items: flex-start;
+
+  --gap: 0.8rem;
+}
+
+.circle-wrap {
+  width: 150px;
+  height: 150px;
+  background: #fefcff;
+  border-radius: 50%;
+  border: 1px solid #cdcbd0;
+}
+
+.mask .fill {
+  clip: rect(0, 75px, 150px, 0);
+  background-color: #227ded;
+}
+
+.mask.full,
+.circle .fill {
+  animation: fill ease-in-out 3s;
+  transform: rotate(135deg);
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+  clip: rect(0, 150px, 150px, 75px);
+}
+
+.circle-wrap .inside-circle {
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  background: var(--clr-white);
+  line-height: 120px;
+  text-align: center;
+  margin-top: 14px;
+  margin-left: 14px;
+  color: var(--clr-azure);
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+@keyframes fill {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(135deg);
+  }
+}
