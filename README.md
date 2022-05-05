@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians
+# BookStore CMS
 
 About
 The Bookstore is a simple website created with react that allows you to:
