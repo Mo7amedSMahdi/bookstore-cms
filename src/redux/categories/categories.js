@@ -1,15 +1,13 @@
 const CATEGORIES_STATUS = 'CATEGORY_STATUS';
 
-export const caretgoriesStatusAction = (status) => {
-  return {
-    type: CATEGORIES_STATUS,
-    payload: {
-      status,
-    },
-  };
-};
+export const caretgoriesStatusAction = (status) => ({
+  type: CATEGORIES_STATUS,
+  payload: {
+    status,
+  },
+});
 
-export default categoriesReducer = (state = [], action) => {
+const categoriesReducer = (state = [], action) => {
   switch (action.type) {
     case CATEGORIES_STATUS:
       return [
@@ -21,3 +19,5 @@ export default categoriesReducer = (state = [], action) => {
       return state;
   }
 };
+
+export default categoriesReducer;
