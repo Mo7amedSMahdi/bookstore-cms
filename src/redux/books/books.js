@@ -1,5 +1,5 @@
-const BOOK_ADDED = 'BOOK_ADDED';
-const BOOK_REMOVED = 'BOOK_REMOVED';
+const BOOK_ADDED = 'bookstore/books/BOOK_ADDED';
+const BOOK_REMOVED = 'bookstore/books/BOOK_REMOVED';
 
 let lastId = 0;
 
@@ -13,7 +13,7 @@ export const bookAddedAction = (book) => ({
 });
 
 export const bookRemovedAction = (id) => ({
-  type: BOOK_ADDED,
+  type: BOOK_REMOVED,
   payload: {
     id,
   },
