@@ -1,19 +1,19 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { bookRemovedAction } from '../../redux/books/books';
+import { removeBookApi } from '../../redux/books/books';
 import './book.css';
 
 const Book = ({ book }) => {
   const dispatch = useDispatch();
 
   const handleBookRemoved = (id) => {
-    dispatch(bookRemovedAction(id));
+    dispatch(removeBookApi(id));
   };
 
   return (
     <div className="book flex">
       <div className="book-details flex flex--column">
-        <p className="text text--h">Category</p>
+        <p className="text text--h">{book.category}</p>
         <h2 className="text text--t">{book.title}</h2>
         <p className="text text--p">{book.author}</p>
         <ul className="nav nav--buttons">
@@ -23,11 +23,7 @@ const Book = ({ book }) => {
             </button>
           </li>
           <li>
-            <button
-              onClick={() => handleBookRemoved(book.id)}
-              type="button"
-              className="btn btn--text"
-            >
+            <button onClick={() => handleBookRemoved(book.item_id)} type="button" className="btn btn--text">
               Remove
             </button>
           </li>
