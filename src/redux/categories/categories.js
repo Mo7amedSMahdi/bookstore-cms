@@ -1,20 +1,14 @@
-const CATEGORIES_STATUS = 'CATEGORY_STATUS';
+const CATEGORIES_STATUS = 'bookstore/categories/CATEGORY_STATUS';
 
-export const caretgoriesStatusAction = (status) => ({
+export const caretgoriesStatusAction = () => ({
   type: CATEGORIES_STATUS,
-  payload: {
-    status,
-  },
 });
 
-const categoriesReducer = (state = [], action) => {
+const categoriesReducer = (state = '', action) => {
+  const msg = 'Under construction';
   switch (action.type) {
     case CATEGORIES_STATUS:
-      return [
-        {
-          status: 'Under construction',
-        },
-      ];
+      return msg;
     default:
       return state;
   }
