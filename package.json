@@ -2,7 +2,7 @@
   "name": "bookstore-cms",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mo7amedsmahdi.github.io/bookstore-cms",
+  "homepage": "https://mo7amedsmahdi.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -12,8 +12,10 @@
     "react-redux": "^8.0.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
     "remixicon": "^2.5.0",
     "styled-components": "^5.3.5",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
