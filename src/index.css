@@ -7,6 +7,9 @@
   --clr-pinkish-gray: #c4c4c4;
   --clr-black: #121212;
   --clr-azure: #0290ff;
+  --clr-grey-border: #e8e8e8;
+  --clr-body: #fafafa;
+  --clr-warm-grey: #888;
 
   /* font families */
   --ff-montserrat: 'Montserrat', sans-serif;
@@ -60,10 +63,11 @@ html:focus-within {
 body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: var(--ff-roboto-sl);
+  font-family: var(--ff-montserrat);
   color: var(--clr-black);
   scroll-behavior: smooth;
-  background: var(--clr-white);
+  background: var(--clr-body);
+  padding-bottom: 8rem;
 }
 
 /* A elements that don't have a class get default styles */
@@ -162,7 +166,18 @@ main {
 }
 
 .btn--primary {
-  border: 2px solid black;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  background-color: var(--clr-azure);
+  font-family: var(--ff-roboto-sl);
+  font-size: 0.813rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--clr-white);
 }
 
 .btn--icon {

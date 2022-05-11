@@ -26,7 +26,7 @@ const AddBook = () => {
 
   return (
     <div className="add-book flex flex--column">
-      <h2 className="text text--t">ADD NEW BOOK</h2>
+      <h2>ADD NEW BOOK</h2>
       <form onSubmit={handleBookAdded} action="/" className="add-book-form flex">
         <input id="title" name="title" type="text" className="input input--text" placeholder="Book title" required />
         <input type="text" id="author" name="author" className="input input--text" placeholder="author" required />
