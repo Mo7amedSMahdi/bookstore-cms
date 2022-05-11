@@ -14,8 +14,13 @@ const onSuccess = (books) => ({
 export const fetchBookApiAction = () => async (dispatch) => {
   const response = await axios.get(`${baseURL}books`);
   const booksFetched = Object.entries(response.data).map((item) => {
-    const { title, author } = item[1][0];
-    return { item_id: item[0], title, author };
+    const { title, author, category } = item[1][0];
+    return {
+      item_id: item[0],
+      title,
+      author,
+      category,
+    };
   });
   dispatch(onSuccess(booksFetched));
 };
