@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cd33b48.css",
-    "main.js": "/static/js/main.277214e8.js",
-    "static/media/remixicon.svg?t=1590207869815": "/static/media/remixicon.9cedd2150922ead84869.svg",
-    "static/media/remixicon.eot?t=1590207869815": "/static/media/remixicon.5cb99e6cba5a4619063f.eot",
-    "static/media/remixicon.ttf?t=1590207869815": "/static/media/remixicon.f2616f597cf98f38d234.ttf",
-    "static/media/remixicon.woff?t=1590207869815": "/static/media/remixicon.8d09fa11700ed63cf96e.woff",
-    "static/media/remixicon.woff2?t=1590207869815": "/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
-    "index.html": "/index.html",
-    "main.5cd33b48.css.map": "/static/css/main.5cd33b48.css.map",
-    "main.277214e8.js.map": "/static/js/main.277214e8.js.map"
+    "main.css": "/bookstore-cms/static/css/main.816fd4ff.css",
+    "main.js": "/bookstore-cms/static/js/main.277214e8.js",
+    "static/media/remixicon.svg?t=1590207869815": "/bookstore-cms/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/remixicon.eot?t=1590207869815": "/bookstore-cms/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/bookstore-cms/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/remixicon.woff?t=1590207869815": "/bookstore-cms/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/remixicon.woff2?t=1590207869815": "/bookstore-cms/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "index.html": "/bookstore-cms/index.html",
+    "main.816fd4ff.css.map": "/bookstore-cms/static/css/main.816fd4ff.css.map",
+    "main.277214e8.js.map": "/bookstore-cms/static/js/main.277214e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cd33b48.css",
+    "static/css/main.816fd4ff.css",
     "static/js/main.277214e8.js"
   ]
 }
