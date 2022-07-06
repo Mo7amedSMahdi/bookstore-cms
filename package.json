@@ -2,7 +2,7 @@
   "name": "bookstore-cms",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mo7amedsmahdi.github.io/",
+  "homepage": "https://mo7amedsmahdi.github.io/bookstore-cms",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
